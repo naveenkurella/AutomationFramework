@@ -1,0 +1,6 @@
+# Created at 2021-02-24T08:55:15.068
+Unresolved compilation problems: 
+	Cannot cast from void to ExtentReports
+	Cannot make a static reference to the non-static method getReportObject() from the type ExtentReportNG
+
+

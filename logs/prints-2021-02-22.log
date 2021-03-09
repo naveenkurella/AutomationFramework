@@ -1,0 +1,8 @@
+20:00:26.216 [main] INFO  resources.base - Driver is Initialized
+20:00:31.405 [main] INFO  resources.base - Navigated to Homepage
+20:01:01.011 [main] INFO  resources.base - Successfully validated the title
+20:03:15.607 [main] INFO  resources.base - Driver is Initialized
+20:03:20.119 [main] INFO  resources.base - Navigated to Homepage
+20:03:50.075 [main] INFO  resources.base - Successfully validated the title
+20:23:06.160 [main] INFO  resources.base - Driver is Initialized
+20:23:10.275 [main] INFO  resources.base - Navigated to Homepage

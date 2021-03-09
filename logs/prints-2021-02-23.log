@@ -1,0 +1,7 @@
+11:32:48.138 [TestNG-tests-4] INFO  resources.base - Navigated to Homepage
+11:32:48.200 [TestNG-tests-4] INFO  resources.base - Successfully validated the title
+11:41:08.418 [TestNG-tests-4] INFO  resources.base - Driver is Initialized
+11:41:17.182 [TestNG-tests-4] INFO  resources.base - Navigated to Homepage
+11:41:17.277 [TestNG-tests-4] INFO  resources.base - Successfully validated the title
+11:52:58.371 [TestNG-tests-4] INFO  resources.base - Driver is Initialized
+11:53:22.516 [TestNG-tests-4] INFO  resources.base - Navigated to Homepage

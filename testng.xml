@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+<listeners>
+<listener class-name="naveen.E2EProject.Listners"/>
+
+</listeners>
+	<test  name="HomePage Test">
+		<classes>
+			<class name="naveen.E2EProject.HomePage" />
+		</classes>
+	</test>
+	<test name="App testing">
+		<classes>
+			<class name="naveen.E2EProject.AppTest" />
+		</classes>
+	</test>
+	<test name="Validating NavigationBar">
+		<classes>
+			<class name="naveen.E2EProject.ValidateNavigationBar" />
+		</classes>
+	</test>
+	<test name="Validating Title">
+		<classes>
+			<class name="naveen.E2EProject.ValidateTitle" />
+		</classes>
+	</test>
+
+	<!-- Test -->
+</suite> <!-- Suite -->

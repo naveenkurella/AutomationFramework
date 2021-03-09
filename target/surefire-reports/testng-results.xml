@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="150532" started-at="2021-03-09T18:00:39 IST" finished-at="2021-03-09T18:03:09 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@56a6d5a6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="validating user Login" duration-ms="150532" started-at="2021-03-09T18:00:39 IST" finished-at="2021-03-09T18:03:09 IST">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@56a6d5a6]" name="setUpClass" is-config="true" duration-ms="414" started-at="2021-03-09T18:00:39 IST" finished-at="2021-03-09T18:00:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@56a6d5a6]" name="runScenario" duration-ms="84080" started-at="2021-03-09T18:00:39 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-09T18:02:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test validating login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login into Application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@56a6d5a6]" name="runScenario" duration-ms="65964" started-at="2021-03-09T18:02:03 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-09T18:03:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test validating login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login into Application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@56a6d5a6]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2021-03-09T18:03:09 IST" finished-at="2021-03-09T18:03:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner -->
+    </test> <!-- validating user Login -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="137692" started-at="2021-03-09T18:03:10 IST" finished-at="2021-03-09T18:05:27 IST">
+    <groups>
+    </groups>
+    <test name="App testing" duration-ms="0" started-at="2021-03-09T18:03:10 IST" finished-at="2021-03-09T18:03:10 IST">
+    </test> <!-- App testing -->
+    <test name="Validating Title" duration-ms="48959" started-at="2021-03-09T18:03:10 IST" finished-at="2021-03-09T18:03:59 IST">
+      <class name="naveen.E2EProject.ValidateTitle">
+        <test-method status="PASS" signature="initialaize()[pri:0, instance:naveen.E2EProject.ValidateTitle@e383572]" name="initialaize" is-config="true" duration-ms="48722" started-at="2021-03-09T18:03:10 IST" finished-at="2021-03-09T18:03:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialaize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:naveen.E2EProject.ValidateTitle@e383572]" name="basePageNavigation" duration-ms="0" started-at="2021-03-09T18:03:58 IST" finished-at="2021-03-09T18:03:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:naveen.E2EProject.ValidateTitle@e383572]" name="tearDown" is-config="true" duration-ms="235" started-at="2021-03-09T18:03:58 IST" finished-at="2021-03-09T18:03:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- naveen.E2EProject.ValidateTitle -->
+    </test> <!-- Validating Title -->
+    <test name="Validating NavigationBar" duration-ms="49767" started-at="2021-03-09T18:03:10 IST" finished-at="2021-03-09T18:03:59 IST">
+      <class name="naveen.E2EProject.ValidateNavigationBar">
+        <test-method status="PASS" signature="initialaize()[pri:0, instance:naveen.E2EProject.ValidateNavigationBar@a2431d0]" name="initialaize" is-config="true" duration-ms="48774" started-at="2021-03-09T18:03:10 IST" finished-at="2021-03-09T18:03:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialaize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:naveen.E2EProject.ValidateNavigationBar@a2431d0]" name="basePageNavigation" duration-ms="866" started-at="2021-03-09T18:03:59 IST" finished-at="2021-03-09T18:03:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:naveen.E2EProject.ValidateNavigationBar@a2431d0]" name="tearDown" is-config="true" duration-ms="126" started-at="2021-03-09T18:03:59 IST" finished-at="2021-03-09T18:03:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- naveen.E2EProject.ValidateNavigationBar -->
+    </test> <!-- Validating NavigationBar -->
+    <test name="HomePage Test" duration-ms="137692" started-at="2021-03-09T18:03:10 IST" finished-at="2021-03-09T18:05:27 IST">
+      <class name="naveen.E2EProject.HomePage">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:naveen.E2EProject.HomePage@7adda9cc]" name="basePageNavigation" duration-ms="70468" started-at="2021-03-09T18:03:10 IST" data-provider="getData" finished-at="2021-03-09T18:04:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:naveen.E2EProject.HomePage@7adda9cc]" name="basePageNavigation" duration-ms="67056" started-at="2021-03-09T18:04:20 IST" data-provider="getData" finished-at="2021-03-09T18:05:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@qw.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:naveen.E2EProject.HomePage@7adda9cc]" name="tearDown" is-config="true" duration-ms="165" started-at="2021-03-09T18:05:27 IST" finished-at="2021-03-09T18:05:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- naveen.E2EProject.HomePage -->
+    </test> <!-- HomePage Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

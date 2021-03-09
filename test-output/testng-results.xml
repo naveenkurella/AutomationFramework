@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="124843" started-at="2021-03-09T17:56:36 IST" finished-at="2021-03-09T17:58:41 IST">
+    <groups>
+    </groups>
+    <test name="App testing" duration-ms="14" started-at="2021-03-09T17:56:36 IST" finished-at="2021-03-09T17:56:36 IST">
+    </test> <!-- App testing -->
+    <test name="Validating Title" duration-ms="26454" started-at="2021-03-09T17:56:36 IST" finished-at="2021-03-09T17:57:03 IST">
+      <class name="naveen.E2EProject.ValidateTitle">
+        <test-method status="PASS" signature="initialaize()[pri:0, instance:naveen.E2EProject.ValidateTitle@524f3b3a]" name="initialaize" is-config="true" duration-ms="26211" started-at="2021-03-09T17:56:36 IST" finished-at="2021-03-09T17:57:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialaize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:naveen.E2EProject.ValidateTitle@524f3b3a]" name="basePageNavigation" duration-ms="5" started-at="2021-03-09T17:57:03 IST" finished-at="2021-03-09T17:57:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:naveen.E2EProject.ValidateTitle@524f3b3a]" name="tearDown" is-config="true" duration-ms="216" started-at="2021-03-09T17:57:03 IST" finished-at="2021-03-09T17:57:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- naveen.E2EProject.ValidateTitle -->
+    </test> <!-- Validating Title -->
+    <test name="Validating NavigationBar" duration-ms="44473" started-at="2021-03-09T17:56:36 IST" finished-at="2021-03-09T17:57:21 IST">
+      <class name="naveen.E2EProject.ValidateNavigationBar">
+        <test-method status="PASS" signature="initialaize()[pri:0, instance:naveen.E2EProject.ValidateNavigationBar@16a0ee18]" name="initialaize" is-config="true" duration-ms="44149" started-at="2021-03-09T17:56:36 IST" finished-at="2021-03-09T17:57:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialaize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:naveen.E2EProject.ValidateNavigationBar@16a0ee18]" name="basePageNavigation" duration-ms="187" started-at="2021-03-09T17:57:20 IST" finished-at="2021-03-09T17:57:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:naveen.E2EProject.ValidateNavigationBar@16a0ee18]" name="tearDown" is-config="true" duration-ms="124" started-at="2021-03-09T17:57:21 IST" finished-at="2021-03-09T17:57:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- naveen.E2EProject.ValidateNavigationBar -->
+    </test> <!-- Validating NavigationBar -->
+    <test name="HomePage Test" duration-ms="124843" started-at="2021-03-09T17:56:36 IST" finished-at="2021-03-09T17:58:41 IST">
+      <class name="naveen.E2EProject.HomePage">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:naveen.E2EProject.HomePage@35047d03]" name="basePageNavigation" duration-ms="60104" started-at="2021-03-09T17:56:36 IST" data-provider="getData" finished-at="2021-03-09T17:57:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:naveen.E2EProject.HomePage@35047d03]" name="basePageNavigation" duration-ms="64564" started-at="2021-03-09T17:57:36 IST" data-provider="getData" finished-at="2021-03-09T17:58:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@qw.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:naveen.E2EProject.HomePage@35047d03]" name="tearDown" is-config="true" duration-ms="123" started-at="2021-03-09T17:58:41 IST" finished-at="2021-03-09T17:58:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- naveen.E2EProject.HomePage -->
+    </test> <!-- HomePage Test -->
+  </suite> <!-- Suite -->
+</testng-results>
