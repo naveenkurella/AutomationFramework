@@ -10,5 +10,4 @@ To Create this Automation Framework,I have used below technologies
 - **Jenkins** - as the Continuous integration tool
 - **Git** - as the Repository
 - **Eclipse** - as the IDE
--
 
