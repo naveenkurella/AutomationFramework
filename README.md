@@ -1,5 +1,5 @@
 # AutomationFramework
-To Create this Automation Framework,I have used below technologies
+To Create this Automation Framework used below technologies
 - **Java** - as the programming Language
 - **Webdriver** - as the web automation Tool
 - **TestNg** -  as the Assertion Freamework
