@@ -39,6 +39,9 @@ public class LandingPage {
 	public void dummy2() {
 		System.out.println("Hi");
 	}
+	
+	public void dummy3() {}
+	
 	public WebElement getTitle() {
 
 		return driver.findElement(title);
