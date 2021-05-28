@@ -10,6 +10,10 @@ public class LandingPage {
 
 	public WebDriver driver;
 
+	/*
+	 * 
+	 * @author=naveen;
+	 */
 	public LandingPage(WebDriver driver) {
 		this.driver = driver;
 	}
@@ -28,6 +32,10 @@ public class LandingPage {
 		 //return lp;
 	}
 
+	public void dummy() {
+		System.out.println("Hello");
+	}
+	
 	public WebElement getTitle() {
 
 		return driver.findElement(title);
